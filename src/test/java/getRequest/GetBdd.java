@@ -22,6 +22,7 @@ public class GetBdd {
 		//.assertThat().body("data.attributes.id", Matchers.equalTo("40"));
 		 .assertThat().body("id", Is.is("40")).log().all();
 		//System.out.println("Body is : " );
+		
 	    
 		
 		
